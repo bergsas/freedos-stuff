@@ -13,7 +13,7 @@ repo_1_1=http://www.ibiblio.org/pub/micro/pc-stuff/freedos/files/distributions/1
 packages="base/command base/kernel base/edit base/display base/mode base/cpidos base/keyb base/keyb_lay base/fdapm base/choice base/devload util/dosidle util/less util/pcisleep"
 
 output_image_size_mb=6
-output_image=freedos_image.img
+output_image=fdos-$(date +%Y%m%d).img
 
 syslinux_version=6.03
 syslinux_modules="libcom32 chain libutil menu ls"
